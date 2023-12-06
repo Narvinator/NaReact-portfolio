@@ -1,10 +1,10 @@
 import React from 'react'
-import './App.css'
+import './Hero.css'
 
-function App = () => {
+function Hero = () => {
 
     return (
-        <div className='hero'>
+        <div className='hero' id='home'>
             <h2 className='title'>Narvin Blas</h2>
             <h3 className='tagline'>Web Developer</h3>
             <p>Greetings! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site. I'm always itching to learn new things and be better and I can't wait to gain more coding experience! 🙌  </p>

@@ -1,11 +1,11 @@
 import About from "../components/About";
-import App from "../components/App";
+import Hero from "../components/Hero";
 import './Home.css'
 
 const Home = () => {
   return (
     <div className='home'>
-     <App />
+     <Hero />
      <About />
     </div>
   )
