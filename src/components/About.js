@@ -1,25 +1,19 @@
 import React from 'react'
 import './About.css'
 
+import HTML from '../assets/html.png'
+import jQuery from '../assets/jquery.png'
+
 const About = () => {
   return (
-    <div className='about' id='about'>
-        <h2 className='title'>About</h2>
     <section className='about' id='about'>
-         
       <div className="about-me">
         <h2 className='title'>About Me</h2>
         <p className='paragraph about-para'>
 
-        <p className='tagline'>Greetings! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site. I'm always itching to learn new things and be better and I can't wait to gain more coding experience! 🙌  </p>
+        Greetings! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site. I'm always itching to learn new things and be better and I can't wait to gain more coding experience! 🙌
         </p>
-        <p className='paragraph about-para'>
-        Greetings! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site. I'm always itching to learn new things and be better and I can't wait to gain more coding experience! 🙌 .
-        </p>
-        <p className='paragraph about-para'>
-        Greetings! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site. I'm always itching to learn new things and be better and I can't wait to gain more coding experience! 🙌 </p>
-        <button className="hire-me">Get my CV</button>
-      </div>
+
      
       <div className="about-skills">
         <h2 className='skill-title'>Front-End</h2>
