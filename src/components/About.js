@@ -9,7 +9,7 @@ const About = () => {
     <section className='about' id='about'>
       <div className="about-me">
         <h2 className='title'>About Me</h2>
-        <p className='paragraph about-para'>
+        <p className='about-title'>
 
         Greetings! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site. I'm always itching to learn new things and be better and I can't wait to gain more coding experience! 🙌
         </p>
