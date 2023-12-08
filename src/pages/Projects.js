@@ -10,17 +10,20 @@ const Projects = () => {
   const dispatch = useDispatch();
   const projects = useSelector((state) => state.projects.projects);
 
-  useEffect(()=>{
+  useEffect(() => {
     dispatch(fetchProjects());
     console.log(projects)
   }, [])
 
   return (
     <div className='projects' id='projects'>
-        <p className='paragraph'>All projects</p>
-        <div className="projects-container">
+       <h1 className='title projects-title'>featuRed pRojecTs</h1>
+      <p className='projects-para'>
+
+      </p>
+      <div className="projects-container">
         {
-          projects.map((project, id)=> (
+          projects.map((project, id) => (
             <ProjectCard
 
             image={project.image_url}
