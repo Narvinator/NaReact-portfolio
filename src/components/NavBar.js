@@ -13,27 +13,29 @@ const toggleMenu = () => {
 
 useEffect(() => {
   const handleScroll = () => {
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
     const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     const scrollPercentage = (scrollTop / scrollHeight) * 100;
-    if (isScrolled) {
-      setNavbarStyle({
-        backgroundColor: 'rgba(0, 0, 0, 0.1)',
-        backdropFilter: 'blur(10px)'
-      });
 
-      setScroll(true);
-    } else {
-      setNavbarStyle({});
-      setScroll(false);
-    }
-  };
 
-  window.addEventListener('scroll', handleScroll);
-  return () => {
-    window.removeEventListener('scroll', handleScroll);
-  };
-}, []);
+          if (scrollPercentage >= 10) {
+        setScroll(true);
+
+        setNavbarStyle({
+        
+          backgroundColor: 'rgba(0, 0, 0, 0.2)',
+        });
+
+      } else {
+        setNavbarStyle({});
+        setScroll(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
 
 return (
