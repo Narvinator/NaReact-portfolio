@@ -166,9 +166,9 @@ width: 60%;
       }
 
     .paragraph{
-        font-size: 1rem;
-        width: 95% !important;
-        margin: 2% 0 5 0;
+        font-size: 0.85rem;
+        width: 100% !important;
+        margin: 4% 0 5% 0;
     }
 
     .social-icons a{
@@ -218,11 +218,6 @@ width: 60%;
         margin: 0;
     }
 
-    .paragraph {
-        font-size: 1rem;
-        margin: 4% 0 5% 0;
-        width: 100% !important;
-    }
 
     .social-icons {
         position: static;
