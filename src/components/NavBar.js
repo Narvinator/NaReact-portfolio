@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react';
 import './NavBar.css'
 import {Link} from 'react-scroll'
 
-const NavBar = () => {   const [navbarStyle, setNavbarStyle] = useState({});
+const NavBar = () => {  
+const [navbarStyle, setNavbarStyle] = useState({});
 const [open, setOpen] = useState(false);
 const [scroll, setScroll] = useState(false);
 
@@ -14,11 +15,13 @@ const toggleMenu = () => {
 useEffect(() => {
   const handleScroll = () => {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollHeight = 
+    document.documentElement.scrollHeight -
+     document.documentElement.clientHeight;
     const scrollPercentage = (scrollTop / scrollHeight) * 100;
 
 
-          if (scrollPercentage >= 10) {
+          if (scrollPercentage >= 2) {
         setScroll(true);
 
         setNavbarStyle({

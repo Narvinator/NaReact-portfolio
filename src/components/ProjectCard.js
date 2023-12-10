@@ -1,15 +1,14 @@
 import React from 'react'
 import './ProjectCard.css'
 
-const ProjectCard = (props) => {
-  return (
+const ProjectCard = (props) => (
     <div className='project-card'>
       {
         props.source_link !== 'N/A' ? (
-          <a href={props.source_link} target='_blank'>
-            <i className="fa-solid fa-arrow-right arrow"></i>
+          <a href={props.source_link} target='_blank' rel="noreferrer">
+            <i className="fa-solid fa-arrow-right arrow"/>
           </a>
-        ) : <span></span>
+        ) : < span/ >
       }
       <i class="fa-regular fa-arrow-up-right"></i>
       <img src={props.image} alt="" />
@@ -28,7 +27,7 @@ const ProjectCard = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+
 
 export default ProjectCard

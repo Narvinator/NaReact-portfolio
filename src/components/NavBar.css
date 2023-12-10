@@ -1,4 +1,4 @@
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,7 +12,7 @@ nav{
     border-bottom: 1px solid rgba(184, 184, 184, 0.384);
 }
 
-.scrolled{
+.scrolled {
     backdrop-filter: blur(5px);
 }
 
@@ -22,23 +22,23 @@ nav{
     margin-right: 20%;;
 }
 
-.menu > li{
+.menu > li {
     padding: 0 0.75rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
-.tophead>h1  {
+.tophead > h1  {
     display: flex;
 }
 
-.name-logo{ 
+.name-logo { 
     font-family: 'Space Mono', monospace;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .blink{
-    height: 1.8rem;
+    height: 2rem;
     width: 15px;
     animation: blink .5s step-end infinite alternate;
     white-space: nowrap;
@@ -53,20 +53,17 @@ nav{
     }
   }
 
-  .menu-btn{
+  .menu-btn {
     display: none;
 }
 
 
-.scroll-to-top{
+.scroll-to-top {
     position: fixed;
     bottom: 3%;
     right: 3%;
     display: none;
 }
-
-
-
 
 /* for mobile and tablet devices */
 
@@ -89,16 +86,16 @@ nav{
         display: none;
     }
 
-    .menu>li {
+    .menu > li {
         font-size: 1.5rem;
         padding: 0;
     }
 
-    .tophead>h1 {
+    .tophead > h1 {
         margin: 0;
         display: flex;
     }
-}
+
 
 .name-logo {
     font-size: 1.2em;
@@ -109,14 +106,14 @@ nav{
 }
 
 
-.tophead{
+.tophead {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
 }
 
-.menu-btn{
+.menu-btn {
     display: block;
     background-image: url('../assets/equal.png');
     width: 25px;
@@ -125,7 +122,7 @@ nav{
     margin-right: 5%;
 }
 
-.opened-btn{
+.opened-btn {
     background-image: url('../assets/close.png');
     width: 25px;
     height: 25px;
@@ -133,14 +130,14 @@ nav{
 }
 
 
-.open{
+.open {
     display: flex;
     flex-direction: column;
     gap: 4rem;
 
 }
 
-.nav-open{
+.nav-open {
     transition: all 0.3s ease-in-out;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
@@ -151,7 +148,7 @@ nav{
 }
 
 
-.scroll-true{
+.scroll-true {
     z-index: 99;
     background-color: #ffffff;
     border-radius: 50%;
@@ -162,6 +159,6 @@ nav{
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     display: flex;
+ }
 }
-
 

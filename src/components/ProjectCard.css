@@ -44,6 +44,7 @@
     color: white;
     border: 0;
     cursor: none;
+    background-color: #950740
 }
 
 .tech-stack:hover{
@@ -83,7 +84,8 @@
 
 /* for mobile and tablet devices */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .tech-stack{
         font-size: 0.8rem;
     }
+}
