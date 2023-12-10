@@ -3,7 +3,7 @@ import './Projects.css'
 import { useEffect } from 'react'
 import { useSelector } from 'react-redux/es/hooks/useSelector'
 import { useDispatch } from 'react-redux'
-import { fetchProjects } from '../store/ProjectsSlice'
+
 import ProjectCard from '../components/ProjectCard'
 
 const Projects = () => {

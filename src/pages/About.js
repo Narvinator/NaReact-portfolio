@@ -1,8 +1,7 @@
 import React from 'react'
 import './About.css'
 
-import HTML from '../assets/html.png'
-import jQuery from '../assets/jquery.png'
+
 
 const About = () => {
   return (

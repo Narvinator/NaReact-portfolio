@@ -2,12 +2,12 @@ import React from 'react'
 import './Hero.css'
 import { Link } from 'react-scroll'
 
-function Hero = () => {
+const Hero = () => (
 
-    return (
+
         <div className='hero' id='home'>
             <h2 className='description'>Narvin Blas</h2>
-            <h2 className='title'>Greetings, I'm Narvin</h2>
+            <h2 className='title'>Greetings, Im Narvin</h2>
             <h3 className='tagline'>Web Developer</h3>
             <p className='paragraph'>Greetings! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site. I am always itching to learn new things and be better and I can not wait to gain more coding experience! 🙌 </p>
             <div className="hero-btns">
@@ -62,6 +62,7 @@ function Hero = () => {
                     rel="noreferrer"
                 >
                     <i className="fa-brands fa-twitch" />
+                    </a>
 
             </div>
         </div>
@@ -69,6 +70,6 @@ function Hero = () => {
 
 
     )
-}
+
 
 export default Hero

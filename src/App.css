@@ -41,7 +41,7 @@ a{
 }
 
 .App {
-	background-image: url('./assets/effect.png');
+	background-image: ;
 	animation: static 3s steps(5, end) infinite;
 	background-size: 200px;
     z-index: 999;
