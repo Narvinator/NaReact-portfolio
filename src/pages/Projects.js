@@ -17,15 +17,16 @@ const Projects = () => {
 
   return (
     <div className='projects' id='projects'>
-       <h1 className='title projects-title'>featuRed pRojecTs</h1>
+       <h1 className='title projects-title'>Projects</h1>
       <p className='projects-para'>
-
+        Here are deployments. I have the functionality working, but the styling will be constant updates.
       </p>
       <div className="projects-container">
         {
           projects.map((project, id) => (
             <ProjectCard
 
+            key={id}
             image={project.image_url}
             title={project.project_name}
             description={project.description}

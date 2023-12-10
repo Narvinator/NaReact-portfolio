@@ -1,22 +1,18 @@
-.projects{
-    padding: 5% 10%;
+.projects {
+    padding: 0 10%;
+    margin-bottom: 10%
 
 }
 
-.projects-container{
+.projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
  }
-.projects-title{
-    margin: 0;
-    padding-top: 2%;
-    border-top:  1px solid rgba(0, 0, 0, 0.534);
-}
-
-.projects-title{
+.projects-title {
     margin-top: 2rem !important;
-    text-align: right;
+    text-align: start;
+    
 }
 
 .projects-para{
@@ -36,14 +32,14 @@
 }
 
 
-
 @media only screen and (max-width: 768px){
     .projects-container{
         grid-template-columns: repeat(1, 1fr);
     }
 
     .projects{
-        padding: 5% 5%;
+        padding: 0 5%;
+        margin-bottom: 20%;
     }
 
     .projects-para{
