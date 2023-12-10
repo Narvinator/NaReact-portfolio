@@ -8,9 +8,9 @@ const ProjectCard = (props) => (
           <a href={props.source_link} target='_blank' rel="noreferrer">
             <i className="fa-solid fa-arrow-right arrow"/>
           </a>
-        ) : < span/ >
+        ) : <span />
       }
-      <i class="fa-regular fa-arrow-up-right"></i>
+      <i className="fa-regular fa-arrow-up-right"></i>
       <img src={props.image} alt="" />
       
       <div className="card-description">

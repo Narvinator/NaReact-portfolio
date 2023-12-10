@@ -1,7 +1,18 @@
 import React from 'react'
 import './About.css'
-
-
+import ReactIcon from '../assets/react.png'
+import JavaScript from '../assets/javascript.png'
+import HTML from '../assets/html.png'
+import jQuery from '../assets/jquery.png'
+import BootStrap from '../assets/bootstrap.png'
+import MySql from '../assets/mysql.png'
+import GitHublogo from '../assets/github.png'
+import Netlify from '../assets/netlify.svg'
+import Heroku from '../assets/heroku_icon_130912.png'
+import VSCode from '../assets/vscode.png'
+import NPMlogo from '../assets/npm.png'
+import Discord from '../assets/discord.png'
+import Zoomlogo from '../assets/zoom.webp'
 
 const About = () => {
   return (
