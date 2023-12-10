@@ -23,17 +23,55 @@ const Contact = () => {
 
             <hr />
 
-            <h3>something <span><a href="mailto:NarvinBlas@gmail.com">Contact Me</a></span></h3>
+            <h3>Interested in me? Professionally of course. </h3>
+            <button className="hire-me">
+            <a href="mailto:NarvinBlas@gmail.com">Contact Me</a>
+            </button>
+        
+            <hr></hr>
 
-            <hr />
+            <div className="social-icons">
+        <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <i className="fa-brands fa-github" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fa-brands fa-linkedin-in" />
+        </a>
 
-            <div className="social">
-                <span><a href="https://github.com/" target="_blank">GITHUB</a></span>
-                <span> <a href="https://www.linkedin.com/" target="_blank">LINKEDIN</a></span>
-                
-                
-            </div>
+        <a
+          href="https://discord.gg/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fa-brands fa-discord" />
+        </a>
+        <a
+          href="https://www.instagram.com/narweeb/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fa-brands fa-instagram" />
+        </a>
+        <a
+          href="https://steamcommunity.com/id/nanohaaa/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fa-brands fa-steam" />
+        </a>
+        <a
+          href="https://www.twitch.tv/narchiyo"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fa-brands fa-twitch" />
+        </a>
         </div>
+      </div>
     </div>
   )
 }
