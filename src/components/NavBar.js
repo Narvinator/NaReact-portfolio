@@ -48,7 +48,7 @@ return (
       <div className="tophead">
         <h1>
           <Link className='name-logo' spy={true} smooth={true} offset={50} duration={500} to="home">
-            prantosh.</Link> <span className='blink'></span>
+            Narvinator</Link> <span className='blink'></span>
         </h1>
         <div className={`menu-btn ${open ? "opened-btn" : ''}`} onClick={toggleMenu}>
 

@@ -13,6 +13,10 @@ import VSCode from '../assets/vscode.png'
 import NPMlogo from '../assets/npm.png'
 import Discord from '../assets/discord.png'
 import Zoomlogo from '../assets/zoom.webp'
+import CSS from '../assets/css.png'
+import Express from '../assets/express.png' 
+import MongoDB from '../assets/mongodb.png'
+import NodeJS from  '../assets/nodejs.png'
 
 const About = () => {
   return (
@@ -68,12 +72,12 @@ const About = () => {
         <div className="skills">
           
           <div className="skill">
-              <img src={MySql} alt="" />
+              <img src={NodeJS} alt="" />
               <p>Node.js</p>
             </div>
 
             <div className="skill">
-              <img src={MySql} alt="" />
+              <img src={Express} alt="" />
               <p>Express.js</p>
             </div>
 
@@ -83,7 +87,7 @@ const About = () => {
             </div>
 
             <div className="skill">
-              <img src={MySql} alt="" />
+              <img src={MongoDB} alt="" />
               <p>MongoDB</p>
             </div>
 

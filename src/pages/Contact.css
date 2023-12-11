@@ -17,9 +17,7 @@
   }
 
 .footer-left h1 {
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-image: url('https://t3.ftcdn.net/jpg/05/58/61/32/360_F_558613274_Z1zbjnHZKjpnTvvsjfZzYXk2TIeUl54a.jpg');
+    
     font-size: 9rem;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.2rem;

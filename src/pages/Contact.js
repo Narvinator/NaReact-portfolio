@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='contact' id='contact'>
         <div className="footer-left">
             <h1>
-                I LOVE <br/>COFFEE <br/> CHAT ☕️
+                I LOVE <br/>COFFEE <br/> CHAT 
             </h1>
         </div>
         <div className="footer-right">
