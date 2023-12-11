@@ -10,15 +10,15 @@ const Hero = () => (
                 <h2 className="title">Greetings, Im Narvin</h2>
 
                 <h3 className="tagline">
-                    I am a United States Navy Veteran
+                    
                 </h3>
                 <p className="paragraph">
-                    Greetings! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site.
+                    ! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site.
                      I am always itching to learn new things and be better and I can not wait to gain more coding experience! 🙌
                       </p>
                 <div className="hero-btns">
                     <button className="hire-me">
-                        <a href="" target='_blank'
+                        <a href="https://drive.google.com/file/d/1BxoJ4kd508i9GQmm6tds4kxGnW_uNSuy/view?usp=sharing" target='_blank'
                         rel="noreferrer">
                             RESUME
                         </a>

@@ -58,23 +58,23 @@ return (
 
         <li>
           <Link spy={true} smooth={true} offset={50} duration={500} onClick={toggleMenu} to="home">
-            home,
+            Home
           </Link>
         </li>
         <li>
           <Link spy={true} smooth={true} offset={50} duration={500} onClick={toggleMenu} to="about">
-            about,
+            About
           </Link>
         </li>
         <li>
           <Link spy={true} smooth={true} offset={50} duration={500} onClick={toggleMenu} to="projects">
-            projects,
+            Portfolio
           </Link>
         </li>
         <li>
         <li>
           <Link spy={true} smooth={true} offset={50} duration={500} onClick={toggleMenu} to="contact">
-            contact
+            Contact Me
           </Link>
         </li>
         </li>

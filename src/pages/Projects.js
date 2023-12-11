@@ -1,65 +1,71 @@
 import React from 'react'
 import './Projects.css'
 import ProjectCard from '../components/ProjectCard'
+import Weather from '../assets/screenshot weather.png'
+import NoteTaker from '../assets/notetakerscreen.png'
+import Tblog from '../assets/Tblogscreenie.png'
+import SNA from '../assets/snascreen.png'
+import Gatekeep from '../assets/For project.png'
+import SMG from '../assets/smgfront.png'
 
 
 const Projects = () => {
   const projectData = [
     {
       image_url:
-        '',
+        '../assets/smgfront.png',
       project_name: 'SMG',
       description:
-        'ARespiratory is developed in collaboration with Faculty Medical & Health Science, UPM. This mobile application has Augmented Reality(AR) features to assist medical students in learning the anatomy and physiology of the respiratory system. \n This application has obtained copyright by MyIPO.',
-      tech_stack: ['Unity', 'Vuforia', 'Blender', 'Adobe XD'],
+        'A Video Game database that allows the user post reviews, read reviews, save games to a profile, and leave comments',
+      tech_stack: ['Axion', 'Handlebars', 'Express', 'MYSQL'],
       source_link:
-        'https://www.linkedin.com/posts/hfzkdr_arlearning-medicaleducation-innovation-activity-7125663966193758208-TGvP?utm_source=share&utm_medium=member_desktop',
+        'https://share-my-game-566086c3c183.herokuapp.com/',
     },
     {
       image_url: '',
       project_name: '-iGatekeep',
-      description:
-        'The EV Mobile Application is a solution developed for Educity Village (EV) to address the growing demand for a reliable booking system. Traditional booking methods proved fragile and prone to errors, leading to the development of this user-friendly mobile application for space booking. The app caters to the needs of EV residents and guests, offering efficient booking for sports courts, spaces, pool tables, and BBQ pits.',
-      tech_stack: ['Flutter', 'Django', 'MySQL', 'Adobe XD'],
+      description:'',
+    
+      tech_stack: ['Basic Javascript', 'Insomnia', 'Soundcloud and Spotify API'],
       source_link:
-        'https://www.youtube.com/watch?v=LkATF4jqDlU&list=PLX3AEknl3ENJFVaBkrFAJlFyuyBgpo6ZI',
+        'https://narvinator.github.io/-Gatekeep/',
     },
 
     {
       image_url: '',
-      project_name: 'CozyShop',
+      project_name: 'T-Blog',
       description:
-        'Cozyshop is an exciting and innovative ecommerce project that aims to redefine the online shopping experience. With a commitment to providing customers with top-quality products, outstanding service, and a seamless user experience.',
-      tech_stack: ['Adobe XD', 'Canva'],
+        '',
+      tech_stack: ['Node.JS', 'Express.Js', 'Heroku Deployment', 'Handlebars'],
       source_link:
-        'https://xd.adobe.com/view/dfd74d8e-99b2-497e-9184-ccc7c11577be-8a84/',
+        'https://glacial-mountain-13703-8898a47f2b04.herokuapp.com/',
     },
     {
       image_url: '',
-      project_name: 'PutraClass',
+      project_name: 'Social Network API',
       description:
-        'A proposed web system prototype for SK SERDANG to deal with Covid-19 back to school program. A complete website prototype consist of a classroom, a timetable, and a specified tab for submitting Covid-19 test result. ',
-      tech_stack: ['Adobe XD'],
+        ' ',
+      tech_stack: ['Express.JS', 'Insomnia', 'Node.JS'],
       source_link:
-        'https://xd.adobe.com/view/5bd33c80-56bb-4607-9950-eaed180a760c-0e80/?hints=off',
+        'https://github.com/Narvinator/SNA',
     },
 
     {
       image_url: '',
-      project_name: 'Aphasia Assist',
+      project_name: 'Weather Tracker',
       description:
-        'Application is developed in a collaboration project with PERKESO for patients that has been diagnosed with aphasia (language disorder). The application has image-to-speech features and is developed as an alternative for aphasia patients to communicate with other people in their daily life.',
-      tech_stack: ['Adobe XD', 'Android Studio', 'Kotlin'],
+        '',
+      tech_stack: ['Basic Javascript, Weather API'],
       source_link:
-        'https://drive.google.com/file/d/1-1_QVy3umJ7YzCTPjfuyjGcKv9XE389I/view',
+        'https://narvinator.github.io/Dash-Weather/r',
     },
     {
       image_url: '',
-      project_name: 'Pendekar Jahat',
+      project_name: 'Note Creator',
       description:
-        '"Pendekar Jahat" is a menacing 3D warrior character brought to life through meticulous 3D modeling and texturing. This dark and enigmatic character represents the embodiment of evil in a fantasy world. The project showcases an intricately designed evil warrior, featuring sinister armor, menacing weapons, and a foreboding presence."Pendekar Jahat" effectively conveys a character with a dark backstory and a malevolent purpose, adding depth to the character design.',
-      tech_stack: ['Blender','3D Modeling'],
-      source_link: 'https://streamable.com/tzlm44',
+        '',
+      tech_stack: ['Node.JS','Insomnia'],
+      source_link: 'https://glacial-mountain-13703-8898a47f2b04.herokuapp.com/',
     },
    
 
@@ -72,10 +78,10 @@ const Projects = () => {
 
   return (
     <div className='projects' id='projects'>
-       <h1 className='title projects-title'>Projects</h1>
+       <h1 className='title projects-title'>Portfolio</h1>
       <p className='projects-para'>
         Here are some of my deployed applications. Basic functionaliy exist, but I have a lot of styling to do.
-        Look for the arrow in the cards for the website link 😅
+        Look for the arrow in the cards for the website links 😅 The first 2 are collaborative efforts.
       </p>
       <div className="projects-container">
         {

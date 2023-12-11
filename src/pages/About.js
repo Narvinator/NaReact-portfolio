@@ -17,7 +17,7 @@ import CSS from '../assets/css.png'
 import Express from '../assets/express.png' 
 import MongoDB from '../assets/mongodb.png'
 import NodeJS from  '../assets/nodejs.png'
-
+import Insomnia from '../assets/Insomnia.png'
 const About = () => {
   return (
     <section className='about' id='about'>
@@ -25,7 +25,7 @@ const About = () => {
         <h2 className='title'>About Me</h2>
         <p className='paragraph about-para'>
 
-          Greetings! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site. I'm always itching to learn new things and be better and I can't wait to gain more coding experience! 🙌
+          As mentioned above I am a UCF Bootcamp graduate. I am  United States Navy Veteran and I was a Hospital Corpsman. I've also done political canvasing before, and I went to a trade school for HVAC.
         </p>
 
         <button className="hire-me">
@@ -121,6 +121,10 @@ const About = () => {
             <div className="skill">
               <img src={NPMlogo} alt="" />
               <p>npm</p>
+            </div>
+            <div className="skill">
+              <img src={Insomnia} alt="" />
+              <p>Insomnia</p>
             </div>
 
           </div>

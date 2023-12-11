@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='contact' id='contact'>
         <div className="footer-left">
             <h1>
-                I LOVE <br/>COFFEE <br/> CHAT 
+                LOOK AT  <br/>THESE LINKS 👀 <br/>
             </h1>
         </div>
         <div className="footer-right">
@@ -15,9 +15,8 @@ const Contact = () => {
                 <p>Frontend Development</p>
                 <p>React</p>
                 <p>Backend Development</p>
-             
+                <p>Learning in General</p>
                
-                <p>New Opportunities</p>
            
             </div>
 
@@ -31,11 +30,11 @@ const Contact = () => {
             <hr></hr>
 
             <div className="social-icons">
-        <a href="https://github.com/" target="_blank" rel="noreferrer">
+        <a href="https://github.com/Narvinator" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-github" />
         </a>
         <a
-          href="https://www.linkedin.com/in/"
+          href="https://www.linkedin.com/in/narvin-blas-896549233/"
           target="_blank"
           rel="noreferrer"
         >
@@ -43,7 +42,7 @@ const Contact = () => {
         </a>
 
         <a
-          href="https://discord.gg/"
+          href="https://discord.gg/366258389019262990"
           target="_blank"
           rel="noreferrer"
         >
