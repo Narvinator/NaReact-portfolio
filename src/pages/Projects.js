@@ -13,7 +13,7 @@ const Projects = () => {
   const projectData = [
     {
       image_url:
-        '../assets/smgfront.png',
+        'https://raw.githubusercontent.com/Narvinator/NarReact-portfolio/main/src/assets/smgfront.png',
       project_name: 'SMG',
       description:
         'A Video Game database that allows the user post reviews, read reviews, save games to a profile, and leave comments',
@@ -22,7 +22,7 @@ const Projects = () => {
         'https://share-my-game-566086c3c183.herokuapp.com/',
     },
     {
-      image_url: '',
+      image_url: 'https://raw.githubusercontent.com/Narvinator/NarReact-portfolio/main/src/assets/For%20project.png',
       project_name: '-iGatekeep',
       description:'',
     
@@ -32,7 +32,7 @@ const Projects = () => {
     },
 
     {
-      image_url: '',
+      image_url: 'https://raw.githubusercontent.com/Narvinator/NarReact-portfolio/main/src/assets/Tblogscreenie.png',
       project_name: 'T-Blog',
       description:
         '',
@@ -41,7 +41,7 @@ const Projects = () => {
         'https://glacial-mountain-13703-8898a47f2b04.herokuapp.com/',
     },
     {
-      image_url: '',
+      image_url: 'https://raw.githubusercontent.com/Narvinator/NarReact-portfolio/main/src/assets/snascreen.png',
       project_name: 'Social Network API',
       description:
         ' ',
@@ -51,7 +51,7 @@ const Projects = () => {
     },
 
     {
-      image_url: '',
+      image_url: 'https://raw.githubusercontent.com/Narvinator/NarReact-portfolio/main/src/assets/screenshot%20weather.png',
       project_name: 'Weather Tracker',
       description:
         '',
@@ -60,7 +60,7 @@ const Projects = () => {
         'https://narvinator.github.io/Dash-Weather/r',
     },
     {
-      image_url: '',
+      image_url: 'https://raw.githubusercontent.com/Narvinator/NarReact-portfolio/main/src/assets/notetakerscreen.png',
       project_name: 'Note Creator',
       description:
         '',
