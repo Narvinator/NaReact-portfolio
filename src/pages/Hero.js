@@ -13,7 +13,7 @@ const Hero = () => (
                     
                 </h3>
                 <p className="paragraph">
-                    ! I am Narvin, a recent UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site.
+                     I am Narvin, very soon to be UCF Bootcamp graduate. I have a great deal of passions, but passion for coding created this site.
                      I am always itching to learn new things and be better and I can not wait to gain more coding experience! 🙌
                       </p>
                 <div className="hero-btns">

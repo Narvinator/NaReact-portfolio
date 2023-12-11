@@ -18,6 +18,7 @@ import Express from '../assets/express.png'
 import MongoDB from '../assets/mongodb.png'
 import NodeJS from  '../assets/nodejs.png'
 import Insomnia from '../assets/Insomnia.png'
+import funnyCat from '../assets/cattypegif.gif'
 const About = () => {
   return (
     <section className='about' id='about'>
@@ -26,14 +27,10 @@ const About = () => {
         <p className='paragraph about-para'>
 
           As mentioned above I am a UCF Bootcamp graduate. I am  United States Navy Veteran and I was a Hospital Corpsman. I've also done political canvasing before, and I went to a trade school for HVAC.
+           Some of my hobbies include: Cars, Basketball, weightlifting, playing several instruments with singing, and being an anime fan 🤓
         </p>
 
-        <button className="hire-me">
-          <a href="" target="_blank" rel="noreferrer"
-          >
-            RESUME
-          </a>
-        </button>
+        <img src={funnyCat} alt="funny cat" className="cat-gif"/>
       </div>
       <div className="about-skills">
 
