@@ -37,6 +37,9 @@ This section explains that I'm a veteran, what technologies that Bootcamp and ta
 
 There is a very simple footer that is shown at the bottom of the About Me page
 
+## Acknowledgemnets 
+
+A lot code was refactored and inspired from https://github.com/PrantoshB/Prantosh-Biswas for use in this portfolio.
 
 
 
